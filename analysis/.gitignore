@@ -1,0 +1,13 @@
+# Participant data is restricted and must NOT be committed (privacy / re-identification risk)
+data/
+*.xlsx
+*.json
+output-1_edit*.json
+
+# Per-user reproduction outputs (contain pilot-user values) — regenerate locally
+results_survey.txt
+results_pilot.txt
+
+__pycache__/
+*.pyc
+.DS_Store
